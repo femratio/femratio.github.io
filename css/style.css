@@ -7,6 +7,7 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow: auto
 }
 
 body{
@@ -16,22 +17,24 @@ body{
   color:#926239;
   line-height:1.6;
   overflow-x: hidden;
+  overflow: auto;
+  scroll-behavior: smooth;
 }
 
 a:link {
-   color: rgba(255, 204, 153, 0.9);
-  /*color: #99ffcc;*/
+  color: #99ffcc;
 }
 
 a:visited {
-   color: rgba(255, 204, 153, 0.9);
-  /*color: #cc99ff;*/
+  color: #cc99ff;
 }
 
-/* TABLET */
+
+
+/* Mobile */
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-@media (min-width:1px)  {
+
 
 video { 
   position: fixed;
@@ -43,7 +46,7 @@ video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url("media/poster1.jpg") no-repeat;
+  background: url('media/poster1.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -61,8 +64,8 @@ video {
 }
 
 #showcase h1{
-  color: rgba(255, 204, 153, 0.7);
-  font-size:50px;
+  color: rgba(255, 204, 153, 0.9);
+  font-size:5.5vh;
   line-height:1.2;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -70,17 +73,21 @@ video {
 
 #showcase p{
   color: rgba(255, 204, 153, 0.7);
-  font-size:20px;
-  max-width: 75vh;
+  font-size:3vh;
+  max-width: 100vh;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
 
-.logo {
+#showcase .logo {
+  max-width: 25vh;
+  max-height: 25vh;
+  transition: 0.5s;
   background-image: url("media/logo.png");
 }
 
 #showcase .button{
-  font-size:24px;
+  font-size:3.5vh;
   text-decoration:none;
   color:#4d0028;
   border:#4d0028 3px solid;
@@ -122,11 +129,10 @@ video {
   background: rgba(44, 00, 20, 1.0);
   text-align: center;
 }
-	
-}
+/*mobile*/
 
 /* PC */
-@media (min-width:1025px)  {
+@media all and (min-width:800px) {
 
 video { 
   position: fixed;
@@ -138,7 +144,7 @@ video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background: url('media/poster1.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -156,7 +162,7 @@ video {
 }
 
 #showcase h1{
-  color: rgba(255, 204, 153, 0.7);
+  color: rgba(255, 204, 153, 0.9);
   font-size:50px;
   line-height:1.2;
   margin-top: 10px;
@@ -166,11 +172,13 @@ video {
 #showcase p{
   color: rgba(255, 204, 153, 0.7);
   font-size:20px;
-  max-width: 75vh;
+  max-width: 100vh;
   margin-bottom: 30px;
 }
 
-.logo {
+#showcase .logo {
+  max-width: 100%;
+  max-height: 100%;
   background-image: url("media/logo.png");
 }
 
@@ -194,11 +202,11 @@ video {
 }
 
 #info{
-  padding: 5vh 25vh;
+  padding: 5vh 5vh;
   background:#000;
   color: rgba(255, 204, 153, 0.8);
   text-align:center;
-  display:flex;
+  display:absolute;
 }
 
 #info .box-1, #info .box-3{
