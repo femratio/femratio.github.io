@@ -16,7 +16,7 @@ body{
   font-family: 'Merriweather', serif;
   font-size:17px;
   color:#926239;
-  /*line-height:1.6;*/
+  line-height:1.6;
   overflow-x: hidden;
   overflow: auto;
   scroll-behavior: smooth;
@@ -67,7 +67,7 @@ video {
 #showcase h1{
   color: rgba(255, 204, 153, 0.9);
   font-size:5.5vh;
-  /*line-height:1.2;*/
+  line-height:1.2;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -77,13 +77,13 @@ video {
   font-size:3vh;
   max-width: 100vh;
   margin-bottom: 30px;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 #showcase .logo {
   max-width: 25vh;
   max-height: 25vh;
-  transition: 0.2s;
+  transition: 0.5s;
   background-image: url("media/logo.png");
 }
 
@@ -107,7 +107,6 @@ video {
 }
 
 #info{
-  height:100vh;
   padding: 5vh 5vh;
   background:#000;
   color: rgba(255, 204, 153, 0.8);
@@ -166,7 +165,7 @@ video {
 #showcase h1{
   color: rgba(255, 204, 153, 0.9);
   font-size:50px;
-  /*line-height:1.2;*/
+  line-height:1.2;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -204,7 +203,6 @@ video {
 }
 
 #info{
-  height:100vh;
   padding: 5vh 5vh;
   background:#000;
   color: rgba(255, 204, 153, 0.8);
