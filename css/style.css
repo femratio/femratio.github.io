@@ -69,6 +69,8 @@ video {
   line-height:1.2;
   margin-top: 10px;
   margin-bottom: 10px;
+  moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
 }
 
 #showcase p{
