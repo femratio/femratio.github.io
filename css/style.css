@@ -77,13 +77,13 @@ video {
   font-size:3vh;
   max-width: 100vh;
   margin-bottom: 30px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 #showcase .logo {
   max-width: 25vh;
   max-height: 25vh;
-  transition: 0.5s;
+  transition: 0.2s;
   background-image: url("media/logo.png");
 }
 
