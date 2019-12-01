@@ -19,6 +19,8 @@ body{
   overflow-x: hidden;
   overflow: auto;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a:link {
