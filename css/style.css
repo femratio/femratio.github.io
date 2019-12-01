@@ -107,6 +107,7 @@ video {
 }
 
 #info{
+  height:100vh;
   padding: 5vh 5vh;
   background:#000;
   color: rgba(255, 204, 153, 0.8);
@@ -203,6 +204,7 @@ video {
 }
 
 #info{
+  height:100vh;
   padding: 5vh 5vh;
   background:#000;
   color: rgba(255, 204, 153, 0.8);
