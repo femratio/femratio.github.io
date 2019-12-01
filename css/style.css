@@ -67,7 +67,7 @@ video {
 #showcase h1{
   color: rgba(255, 204, 153, 0.9);
   font-size:5.5vh;
-  line-height:1.2;
+  /*line-height:1.2;*/
   margin-top: 10px;
   margin-bottom: 10px;
 }
