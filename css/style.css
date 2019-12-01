@@ -20,7 +20,6 @@ body{
   overflow: auto;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a:link {
@@ -63,10 +62,6 @@ video {
   align-items:center;
   text-align:center;
   padding:0 20px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
-  webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
 }
 
 #showcase h1{
@@ -75,10 +70,6 @@ video {
   line-height:1.2;
   margin-top: 10px;
   margin-bottom: 10px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
-  webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
 }
 
 #showcase p{
