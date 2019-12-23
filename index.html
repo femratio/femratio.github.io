@@ -57,13 +57,13 @@ window.onload=function(){
 	var service_id = "default_service";
 	var template_id = "femratio";
 	
-	sendform.find("button").text("Sending...");
+	sendform.find("button").text("Отправляем...");
 	emailjs.sendForm(service_id,template_id,sendform[0])
 		.then(function(){ 
-		alert("Sent!");
+		alert("Мы вам перезвоним!");
 		sendform.find("button").text("Хочу!");
 	}, function(err) {
-		alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+		alert("Ошибка!\r\n причина:\n " + JSON.stringify(err));
 		sendform.find("button").text("Хочу!");
 	});
 	return false;
