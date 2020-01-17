@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import "normalize.css"
 
 *
 {
@@ -67,7 +66,7 @@ a:visited
 br
 {
 	display:					block;	/* makes it have a width */
-	content:					" ";		/* clears default height */
+	content:					"";		/* clears default height */
 	margin-top:					0.5rem;	/* change this to whatever height you want it */
 }
 
@@ -136,6 +135,11 @@ form textarea
 	border:						rgba(255, 204, 153, 0.5)	0.2rem solid;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 204, 153, 0.8);;
+  opacity: 0.5; /* Firefox */
+}
+
 form button
 {
 	font-family: 				'Playfair Display', serif;
@@ -180,10 +184,6 @@ textarea:required:invalid
 	outline:					none;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(255, 204, 153, 0.8);;
-  opacity: 0.5; /* Firefox */
-}
 
 
 #showcase
